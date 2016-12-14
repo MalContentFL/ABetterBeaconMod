@@ -1,4 +1,4 @@
-package malcontentfl.abetterbeaconmod.Items;
+package malcontentfl.abetterbeaconmod.items;
 
 import malcontentfl.abetterbeaconmod.Reference;
 import net.minecraft.item.Item;
@@ -10,5 +10,4 @@ public class ItemIronLense extends Item {
 		this.setUnlocalizedName(unlocalizedName);
 		this.setRegistryName(new ResourceLocation(Reference.MODID, registryName));
 	}
-
 }

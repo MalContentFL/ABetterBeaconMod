@@ -1,7 +1,7 @@
 [
 {
-  "modid": "abbm",
-  "name": "ABetterBeaconMod",
+  "modid": "ABBM",
+  "name": "A Better Beacon Mod",
   "description": "Beacons but Better! Specialize the effects of your beacons with lenses powered by a unique energy system.",
   "version": "0.0.1",
   "mcversion": "1.10.2",
@@ -11,6 +11,6 @@
   "credits": "Me, and CJ's Modding Tutorial.",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["mod_MinecraftForge"]
 }
 ]

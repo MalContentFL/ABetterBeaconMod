@@ -12,6 +12,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class ABetterBeaconMod
 {
+	malcontentfl.abetterbeaconmod.handlers.EventHandler eventHandler = new malcontentfl.abetterbeaconmod.handlers.EventHandler();
+	
 	@Mod.Instance(Reference.MODID)
 	public static ABetterBeaconMod instance;
 	

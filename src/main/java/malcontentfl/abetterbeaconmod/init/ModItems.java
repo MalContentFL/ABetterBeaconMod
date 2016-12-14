@@ -2,7 +2,7 @@ package malcontentfl.abetterbeaconmod.init;
 
 import malcontentfl.abetterbeaconmod.Reference;
 import malcontentfl.abetterbeaconmod.Utils;
-import malcontentfl.abetterbeaconmod.Items.ItemIronLense;
+import malcontentfl.abetterbeaconmod.items.ItemIronLense;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
