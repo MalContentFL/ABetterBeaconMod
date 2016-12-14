@@ -1,0 +1,16 @@
+[
+{
+  "modid": "abbm",
+  "name": "ABetterBeaconMod",
+  "description": "Beacons but Better! Specialize the effects of your beacons with lenses powered by a unique energy system.",
+  "version": "0.0.1",
+  "mcversion": "1.10.2",
+  "url": "Sadly no website :(",
+  "updateUrl": "",
+  "authorList": ["MalContentFL"],
+  "credits": "Me, and CJ's Modding Tutorial.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
