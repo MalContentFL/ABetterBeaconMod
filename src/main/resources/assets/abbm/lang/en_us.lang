@@ -1,1 +1,8 @@
-item.iron_lense.name"Iron Lense"
+tile.nether_cube.name=Nether Cube
+
+item.iron_lense.name=Iron Lense
+item.gold_lense.name=Gold Lense
+item.diamond_lense.name=Diamond Lense
+item.emerald_lense.name=Emerald Lense
+
+itemGroup.mod=A Better Beacon Mod
