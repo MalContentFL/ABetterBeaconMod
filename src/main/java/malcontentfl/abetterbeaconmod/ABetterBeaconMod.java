@@ -2,10 +2,12 @@ package malcontentfl.abetterbeaconmod;
 
 import malcontentfl.abetterbeaconmod.creativeTabs.TabABBM;
 import malcontentfl.abetterbeaconmod.handlers.RecipeHandler;
+import malcontentfl.abetterbeaconmod.handlers.RenderGuiHandler;
 import malcontentfl.abetterbeaconmod.init.ModBlocks;
 import malcontentfl.abetterbeaconmod.init.ModItems;
 import malcontentfl.abetterbeaconmod.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -48,7 +50,7 @@ public class ABetterBeaconMod
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event)
 	{
-		
+		MinecraftForge.EVENT_BUS.register(new RenderGuiHandler());
 	}
 
 }

@@ -4,5 +4,7 @@ item.iron_lense.name=Iron Lense
 item.gold_lense.name=Gold Lense
 item.diamond_lense.name=Diamond Lense
 item.emerald_lense.name=Emerald Lense
+item.endowing_rod.name=Endowing Rod
+item.solidified_energy=Solidified Energy
 
 itemGroup.mod=A Better Beacon Mod

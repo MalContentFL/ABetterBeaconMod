@@ -5,8 +5,10 @@ import malcontentfl.abetterbeaconmod.Reference;
 import malcontentfl.abetterbeaconmod.Utils;
 import malcontentfl.abetterbeaconmod.items.ItemDiamondLense;
 import malcontentfl.abetterbeaconmod.items.ItemEmeraldLense;
+import malcontentfl.abetterbeaconmod.items.ItemEndowingRod;
 import malcontentfl.abetterbeaconmod.items.ItemGoldLense;
 import malcontentfl.abetterbeaconmod.items.ItemIronLense;
+import malcontentfl.abetterbeaconmod.items.ItemSolidifiedEnergy;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
@@ -19,6 +21,8 @@ public class ModItems
 	public static Item goldLense;
 	public static Item diamondLense;
 	public static Item emeraldLense;
+	public static Item endowingRod;
+	public static Item solidifiedEnergy;
 	
 	public static void init()
 	{
@@ -26,6 +30,8 @@ public class ModItems
 		goldLense = new ItemGoldLense("gold_lense", "gold_lense");
 		diamondLense = new ItemDiamondLense("diamond_lense", "diamond_lense");
 		emeraldLense = new ItemEmeraldLense("emerald_lense", "emerald_lense");
+		endowingRod = new ItemEndowingRod("endowing_rod", "endowing_rod");
+		solidifiedEnergy = new ItemSolidifiedEnergy("solidified_energy", "solidified_energy");
 	}
 	
 	public static void register()
@@ -34,6 +40,8 @@ public class ModItems
 		registerItem(goldLense);
 		registerItem(diamondLense);
 		registerItem(emeraldLense);
+		registerItem(endowingRod);
+		registerItem(solidifiedEnergy);
 	}
 	
 	public static void registerRenders()
@@ -42,6 +50,8 @@ public class ModItems
 		registerRender(goldLense);
 		registerRender(diamondLense);
 		registerRender(emeraldLense);
+		registerRender(endowingRod);
+		registerRender(solidifiedEnergy);
 	}
 	
 	public static void registerItem(Item item)

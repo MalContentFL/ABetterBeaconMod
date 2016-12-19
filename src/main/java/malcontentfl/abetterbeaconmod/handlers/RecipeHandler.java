@@ -14,6 +14,7 @@ public class RecipeHandler
 	{
 		GameRegistry.addRecipe(new ItemStack(ModItems.ironLense), new Object[] {" I ", "IGI", " I ", 'I', Items.IRON_INGOT, 'G', Blocks.GLASS_PANE});
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.netherCube), new Object[] {"SSS", "SSS", "SSS", 'S', Items.NETHER_STAR});
+		GameRegistry.addRecipe(new ItemStack(ModItems.endowingRod), new Object[] {"  S", " B ", "B  ", 'S', Items.BLAZE_ROD, 'B', ModItems.solidifiedEnergy});
 		
 		Utils.getLogger().info("Registered Crafting Recipes!");
 	}
