@@ -4,10 +4,10 @@ import malcontentfl.abetterbeaconmod.Reference;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 
-public class ItemGoldLense extends Item
+public class ItemEmeraldLens extends Item
 {
 	
-	public ItemGoldLense(String unlocalizedName, String registryName)
+	public ItemEmeraldLens(String unlocalizedName, String registryName)
 	{
 		this.setUnlocalizedName(unlocalizedName);
 		this.setRegistryName(new ResourceLocation(Reference.MODID, registryName));

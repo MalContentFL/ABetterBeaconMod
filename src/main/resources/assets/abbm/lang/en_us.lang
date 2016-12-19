@@ -1,9 +1,9 @@
 tile.nether_cube.name=Nether Cube
 
-item.iron_lense.name=Iron Lense
-item.gold_lense.name=Gold Lense
-item.diamond_lense.name=Diamond Lense
-item.emerald_lense.name=Emerald Lense
+item.iron_lens.name=Iron Lens
+item.gold_lens.name=Gold Lens
+item.diamond_lens.name=Diamond Lens
+item.emerald_lens.name=Emerald Lens
 item.endowing_rod.name=Endowing Rod
 item.solidified_energy=Solidified Energy
 

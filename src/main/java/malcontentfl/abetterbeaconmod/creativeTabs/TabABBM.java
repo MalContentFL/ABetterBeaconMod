@@ -14,6 +14,6 @@ public class TabABBM extends CreativeTabs
 	@Override
 	public Item getTabIconItem()
 	{
-		return ModItems.ironLense;
+		return ModItems.ironLens;
 	}
 }

@@ -3,11 +3,11 @@ package malcontentfl.abetterbeaconmod.init;
 import malcontentfl.abetterbeaconmod.ABetterBeaconMod;
 import malcontentfl.abetterbeaconmod.Reference;
 import malcontentfl.abetterbeaconmod.Utils;
-import malcontentfl.abetterbeaconmod.items.ItemDiamondLense;
-import malcontentfl.abetterbeaconmod.items.ItemEmeraldLense;
+import malcontentfl.abetterbeaconmod.items.ItemDiamondLens;
+import malcontentfl.abetterbeaconmod.items.ItemEmeraldLens;
 import malcontentfl.abetterbeaconmod.items.ItemEndowingRod;
-import malcontentfl.abetterbeaconmod.items.ItemGoldLense;
-import malcontentfl.abetterbeaconmod.items.ItemIronLense;
+import malcontentfl.abetterbeaconmod.items.ItemGoldLens;
+import malcontentfl.abetterbeaconmod.items.ItemIronLens;
 import malcontentfl.abetterbeaconmod.items.ItemSolidifiedEnergy;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -17,39 +17,39 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems 
 {
-	public static Item ironLense;
-	public static Item goldLense;
-	public static Item diamondLense;
-	public static Item emeraldLense;
+	public static Item ironLens;
+	public static Item goldLens;
+	public static Item diamondLens;
+	public static Item emeraldLens;
 	public static Item endowingRod;
 	public static Item solidifiedEnergy;
 	
 	public static void init()
 	{
-		ironLense = new ItemIronLense("iron_lense", "iron_lense");
-		goldLense = new ItemGoldLense("gold_lense", "gold_lense");
-		diamondLense = new ItemDiamondLense("diamond_lense", "diamond_lense");
-		emeraldLense = new ItemEmeraldLense("emerald_lense", "emerald_lense");
+		ironLens = new ItemIronLens("iron_lens", "iron_lens");
+		goldLens = new ItemGoldLens("gold_lens", "gold_lens");
+		diamondLens = new ItemDiamondLens("diamond_lens", "diamond_lens");
+		emeraldLens = new ItemEmeraldLens("emerald_lens", "emerald_lens");
 		endowingRod = new ItemEndowingRod("endowing_rod", "endowing_rod");
 		solidifiedEnergy = new ItemSolidifiedEnergy("solidified_energy", "solidified_energy");
 	}
 	
 	public static void register()
 	{
-		registerItem(ironLense);
-		registerItem(goldLense);
-		registerItem(diamondLense);
-		registerItem(emeraldLense);
+		registerItem(ironLens);
+		registerItem(goldLens);
+		registerItem(diamondLens);
+		registerItem(emeraldLens);
 		registerItem(endowingRod);
 		registerItem(solidifiedEnergy);
 	}
 	
 	public static void registerRenders()
 	{
-		registerRender(ironLense);
-		registerRender(goldLense);
-		registerRender(diamondLense);
-		registerRender(emeraldLense);
+		registerRender(ironLens);
+		registerRender(goldLens);
+		registerRender(diamondLens);
+		registerRender(emeraldLens);
 		registerRender(endowingRod);
 		registerRender(solidifiedEnergy);
 	}

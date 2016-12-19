@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "abbm:items/iron_lense"
+		"layer0": "abbm:items/gold_lens"
 	}
 }
