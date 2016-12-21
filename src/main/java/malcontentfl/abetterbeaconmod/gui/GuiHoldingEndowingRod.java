@@ -14,5 +14,4 @@ public class GuiHoldingEndowingRod extends Gui
 		int height = scaled.getScaledHeight();
 		drawCenteredString(mc.fontRendererObj, "Network Energy: " + "", width / 128 + 45, (height - 15), Integer.parseInt("FFAA00", 16));
 	}
-	
 }

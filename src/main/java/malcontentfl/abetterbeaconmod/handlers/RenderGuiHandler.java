@@ -14,4 +14,11 @@ public class RenderGuiHandler
 		if (event.getType() != ElementType.EXPERIENCE) return;
 		new GuiHoldingEndowingRod(Minecraft.getMinecraft());
 	}
+	
+	@SubscribeEvent
+	public void onHoldEndowingRod(RenderGameOverlayEvent.Post event)
+	{
+		if ()/* player is holding endowing rod*/
+		new GuiHoldingEndowingRod(Minecraft.getMinecraft());
+	}
 }
